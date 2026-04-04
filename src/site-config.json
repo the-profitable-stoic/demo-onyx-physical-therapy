@@ -1,0 +1,583 @@
+{
+  "business": {
+    "name": "Onyx Physical Therapy",
+    "phone": "555-phy-r93",
+    "category": "physical-therapy",
+    "city": "Boise",
+    "state": "ID"
+  },
+  "design": {
+    "preset": {
+      "id": "physical-therapy-dark-premium",
+      "categoryGroup": "physical-therapy",
+      "name": "Dark Premium",
+      "recipeFile": "physical-therapy/dark-premium.astro",
+      "colors": {
+        "primary": "#60A5FA",
+        "primaryDark": "#4d84c8",
+        "primaryLight": "#bfdbfd",
+        "secondary": "#2A2A2A",
+        "accent": "#78b3fb",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "physical-therapy/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Regain Mobility in Boise",
+      "heroSubline": "Onyx Physical Therapy helps Treasure Valley residents recover from injuries and improve movement. Our personalized approach gets you back to enjoying Boise's active lifestyle.",
+      "aboutTitle": "Why Choose Onyx Physical Therapy",
+      "aboutText": [
+        "Founded in 2012, Onyx Physical Therapy has grown from a single practitioner in downtown Boise to a team serving the entire Treasure Valley. We understand how Idaho's seasonal extremes and outdoor culture impact our patients' needs.",
+        "Our evidence-based treatments combine manual therapy with targeted exercises. We listen carefully to each patient's goals, whether that's returning to skiing at Bogus Basin or simply gardening without pain.",
+        "As active members of the Boise community, we sponsor local running clubs and provide free injury prevention workshops at neighborhood centers throughout Ada County."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "We understand how Boise's terrain and climate affect rehabilitation needs, from winter slips to hiking injuries."
+        },
+        {
+          "title": "Personalized Plans",
+          "description": "Every treatment plan is customized based on your specific condition, lifestyle, and recovery goals."
+        },
+        {
+          "title": "Same-Day Evaluation",
+          "description": "Most new patients can be evaluated within 24 hours to start treatment quickly."
+        },
+        {
+          "title": "Direct Billing",
+          "description": "We handle all insurance paperwork so you can focus on recovery."
+        }
+      ],
+      "ctaHeadline": "Start Your Recovery Today",
+      "ctaSubline": "Schedule your initial evaluation with one of our Boise-area physical therapy specialists."
+    },
+    "services": [
+      {
+        "slug": "post-surgical-rehabilitation",
+        "name": "Post-Surgical Rehabilitation",
+        "shortDescription": "Specialized recovery programs for patients after orthopedic procedures.",
+        "description": "After joint replacements, rotator cuff repairs, or other orthopedic surgeries, proper rehabilitation is crucial for regaining full function. Our Boise clinic develops customized recovery plans that account for Idaho's variable weather conditions, which can impact joint sensitivity during healing.\n\nWe coordinate closely with local surgeons to ensure continuity of care. Treatment typically begins with gentle range-of-motion exercises and progresses to strength training tailored to your daily activities. For patients in Boise's hilly neighborhoods like the North End or Bench areas, we incorporate terrain-specific training to prepare you for navigating inclines safely.",
+        "process": [
+          "Step 1: Surgical outcome evaluation and physician consultation",
+          "Step 2: Customized mobility restoration plan development",
+          "Step 3: Progressive strength and flexibility training",
+          "Step 4: Functional movement retraining for daily activities"
+        ],
+        "benefits": [
+          "Reduced recovery time",
+          "Improved surgical outcomes",
+          "Customized to your surgeon's protocols",
+          "Prepares you for Idaho's active lifestyle"
+        ],
+        "faq": [
+          {
+            "question": "How soon after surgery can I start physical therapy?",
+            "answer": "This depends on your specific procedure, but most post-surgical rehab begins within 1-2 weeks. We'll coordinate timing with your surgeon to ensure proper healing has begun before starting therapy."
+          },
+          {
+            "question": "Will therapy be painful?",
+            "answer": "We aim to keep discomfort manageable while still making progress. Some soreness is normal, but we'll adjust your program if you experience sharp pain during exercises."
+          }
+        ]
+      },
+      {
+        "slug": "sports-injury-recovery",
+        "name": "Sports Injury Recovery",
+        "shortDescription": "Targeted rehabilitation for athletes and active individuals.",
+        "description": "Whether you're training for the Race to Robie Creek or recovering from a skiing injury at Bogus Basin, our sports therapy program helps active Boise residents return to their sports safely. We analyze movement patterns to address biomechanical imbalances that may contribute to recurring injuries.\n\nTreatment incorporates sport-specific exercises that prepare you for the demands of your activity. For runners, this might include gait analysis on our anti-gravity treadmill. For cyclists, we assess bike fit and pedal mechanics. Our therapists understand the unique challenges of training in Boise's high desert climate, where dehydration can affect muscle recovery.",
+        "process": [
+          "Step 1: Comprehensive injury assessment and movement analysis",
+          "Step 2: Identification of contributing factors and weaknesses",
+          "Step 3: Sport-specific rehabilitation program development",
+          "Step 4: Gradual return-to-sport progression"
+        ],
+        "benefits": [
+          "Reduced risk of re-injury",
+          "Improved sports performance",
+          "Customized for your sport",
+          "Addresses underlying causes"
+        ],
+        "faq": [
+          {
+            "question": "How long until I can return to my sport?",
+            "answer": "Recovery timelines vary based on injury severity and your sport's demands. We'll provide a clear progression plan with milestones to track your readiness for full participation."
+          },
+          {
+            "question": "Do you work with weekend warriors as well as competitive athletes?",
+            "answer": "Absolutely. Whether you're training for a marathon or just want to play weekend basketball without pain, we can help you move better and prevent injuries."
+          }
+        ]
+      },
+      {
+        "slug": "chronic-pain-management",
+        "name": "Chronic Pain Management",
+        "shortDescription": "Non-invasive approaches to managing persistent pain conditions.",
+        "description": "Living with chronic pain can make it difficult to enjoy Boise's four distinct seasons. Our pain management program combines manual therapy, therapeutic exercise, and education to help you find relief. We particularly understand how the Treasure Valley's temperature swings can affect joint pain and stiffness.\n\nTreatment focuses on improving mobility while teaching pain-reducing strategies you can use at home or work. For patients whose pain worsens during winter months, we incorporate indoor exercise options that maintain progress despite cold weather. Many patients find relief through our integrated approach that addresses both physical and lifestyle factors contributing to their discomfort.",
+        "process": [
+          "Step 1: Comprehensive pain assessment and history review",
+          "Step 2: Identification of pain triggers and movement restrictions",
+          "Step 3: Development of personalized pain management plan",
+          "Step 4: Gradual progression of function and activity tolerance"
+        ],
+        "benefits": [
+          "Reduced reliance on medications",
+          "Improved daily functioning",
+          "Education on pain science",
+          "Long-term self-management skills"
+        ],
+        "faq": [
+          {
+            "question": "Is physical therapy helpful for arthritis pain?",
+            "answer": "Yes. While we can't reverse arthritis, therapy can significantly improve joint mobility, strengthen supporting muscles, and teach techniques to minimize discomfort during daily activities."
+          },
+          {
+            "question": "How many sessions will I need?",
+            "answer": "Chronic pain management is typically an ongoing process. We'll start with 2-3 sessions weekly, then gradually reduce frequency as you gain skills to manage symptoms independently."
+          }
+        ]
+      },
+      {
+        "slug": "balance-and-fall-prevention",
+        "name": "Balance and Fall Prevention",
+        "shortDescription": "Programs to improve stability and reduce fall risk.",
+        "description": "For older adults in Boise's varied terrain – from downtown's historic sidewalks to Harris Ranch's newer developments – maintaining balance is essential for independence. Our fall prevention program assesses your risk factors and creates a targeted exercise plan to improve stability.\n\nWe incorporate real-world challenges like stepping over curbs, recovering from slips on wet surfaces (common during Boise's rainy springs), and getting up safely from the floor. Sessions may include exercises on our uneven surfaces training system to simulate outdoor conditions. Many patients appreciate learning how to navigate Boise's popular but sometimes uneven Greenbelt paths with greater confidence.",
+        "process": [
+          "Step 1: Comprehensive balance assessment and fall risk screening",
+          "Step 2: Identification of specific balance deficits",
+          "Step 3: Customized balance training program",
+          "Step 4: Home safety evaluation and recommendations"
+        ],
+        "benefits": [
+          "Reduced fear of falling",
+          "Improved reaction time",
+          "Greater confidence in movement",
+          "Home safety strategies"
+        ],
+        "faq": [
+          {
+            "question": "My balance seems worse in winter – can therapy help?",
+            "answer": "Absolutely. We can teach you specific strategies for navigating icy sidewalks and show you indoor exercises to maintain balance strength during winter months."
+          },
+          {
+            "question": "Will I need special equipment at home?",
+            "answer": "Most exercises use common household items. We'll provide a customized home program using what you have available and may suggest a few inexpensive aids if needed."
+          }
+        ]
+      },
+      {
+        "slug": "workplace-injury-rehabilitation",
+        "name": "Workplace Injury Rehabilitation",
+        "description": "Whether you work at one of Boise's growing tech companies or in construction, job-related injuries require specialized care. Our workplace rehab program addresses the specific physical demands of your occupation while coordinating with employers and workers' compensation as needed.\n\nFor desk workers suffering from repetitive strain injuries, we incorporate ergonomic assessments and computer posture training. For manual laborers, we focus on proper lifting techniques and job-specific conditioning. We understand how Boise's seasonal industries – from winter snow removal to summer landscaping – create different injury risks throughout the year.",
+        "process": [
+          "Step 1: Job demands analysis and injury assessment",
+          "Step 2: Development of work-specific rehabilitation plan",
+          "Step 3: Gradual work conditioning and simulated job tasks",
+          "Step 4: Transition back to full work duties"
+        ],
+        "benefits": [
+          "Faster return to work",
+          "Reduced risk of re-injury",
+          "Job-specific conditioning",
+          "Ergonomic recommendations"
+        ],
+        "faq": [
+          {
+            "question": "Do you work with workers' compensation cases?",
+            "answer": "Yes, we're experienced in workers' comp rehabilitation and can coordinate with your employer and claims adjuster throughout your recovery."
+          },
+          {
+            "question": "Can you help with office ergonomics?",
+            "answer": "Absolutely. We provide detailed workstation assessments and teach you how to set up your workspace to minimize strain, whether you're in a traditional office or working from home."
+          }
+        ]
+      },
+      {
+        "slug": "pediatric-physical-therapy",
+        "name": "Pediatric Physical Therapy",
+        "shortDescription": "Specialized care for children with developmental challenges.",
+        "description": "Helping young patients in the Boise area reach their developmental milestones requires a playful yet purposeful approach. Our pediatric therapy services assist children with conditions affecting movement, coordination, or physical development. We work closely with local schools and pediatricians to coordinate care.\n\nSessions incorporate games and activities that motivate children while addressing their specific needs. For Boise families, we understand the importance of preparing children to navigate varied environments – from playgrounds at Julia Davis Park to winter sports at local ski hills. Therapy may focus on improving balance for bike riding along the Greenbelt or developing strength for participating in school PE classes.",
+        "process": [
+          "Step 1: Developmental screening and parent consultation",
+          "Step 2: Creation of individualized treatment plan with functional goals",
+          "Step 3: Play-based therapy sessions targeting specific skills",
+          "Step 4: Family education and home program development"
+        ],
+        "benefits": [
+          "Improved mobility and coordination",
+          "Enhanced participation in activities",
+          "Family-centered approach",
+          "School collaboration"
+        ],
+        "faq": [
+          {
+            "question": "At what age should I be concerned about my child's physical development?",
+            "answer": "Early intervention is best. If your child isn't meeting typical milestones like rolling, sitting, or walking at expected ages, or if they struggle with coordination compared to peers, an evaluation can determine if therapy would help."
+          },
+          {
+            "question": "Do you provide therapy at schools or homes?",
+            "answer": "While most sessions occur at our clinic, we can coordinate with schools and occasionally provide home visits when clinically appropriate."
+          }
+        ]
+      },
+      {
+        "slug": "vestibular-rehabilitation",
+        "name": "Vestibular Rehabilitation",
+        "shortDescription": "Specialized therapy for dizziness and balance disorders.",
+        "description": "Vertigo and balance disorders can make navigating Boise's scenic but sometimes uneven terrain challenging. Our vestibular rehabilitation program helps patients with inner ear disorders, concussions, or other conditions affecting balance. Using evidence-based techniques, we reduce dizziness and improve stability.\n\nTreatment may include gaze stabilization exercises to help with visual focus while walking the Greenbelt or habituation exercises for motion sensitivity that occurs when driving Boise's winding foothills roads. We provide strategies for managing symptoms during different seasons – from summer's wildfire smoke that can worsen dizziness to winter's low light conditions that may challenge visual balance cues.",
+        "process": [
+          "Step 1: Comprehensive vestibular assessment and symptom analysis",
+          "Step 2: Identification of specific vestibular dysfunction",
+          "Step 3: Customized exercise program development",
+          "Step 4: Gradual progression of challenging movements"
+        ],
+        "benefits": [
+          "Reduced dizziness and vertigo",
+          "Improved gaze stability",
+          "Increased confidence in movement",
+          "Better navigation of daily environments"
+        ],
+        "faq": [
+          {
+            "question": "How long until I notice improvement in my dizziness?",
+            "answer": "Many patients see some improvement within 2-3 weeks, though complete recovery may take several months depending on your specific condition and consistency with exercises."
+          },
+          {
+            "question": "Will the exercises make me dizzy?",
+            "answer": "Some exercises may temporarily increase symptoms as your system adapts, but we'll carefully pace your program to keep discomfort manageable while still promoting recovery."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mark T.",
+        "rating": 5,
+        "service": "Sports Injury Recovery",
+        "text": "After tearing my ACL playing basketball, the team at Onyx got me back on the court in time for my league's playoffs. Their knowledge of sports-specific rehab made all the difference – they even analyzed my jump mechanics to prevent future injuries. Six months post-surgery, I'm playing better than ever.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Chronic Pain Management",
+        "text": "Living with fibromyalgia made Boise's winter months especially difficult. My therapist at Onyx taught me gentle exercises I could do at home that actually reduced my pain levels. The education about how weather affects pain was so helpful – I finally understand how to manage flare-ups when our temperatures swing 40 degrees in a day.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Robert and Linda P.",
+        "rating": 5,
+        "service": "Balance and Fall Prevention",
+        "text": "After my husband fell twice on our icy North End driveway last winter, we knew we needed help. The balance program at Onyx gave us both confidence – they even practiced getting up from falls safely. This winter was completely different thanks to their exercises and tips for navigating Boise's variable winter conditions.",
+        "date": "2025-02-10"
+      },
+      {
+        "name": "Jessica M.",
+        "rating": 5,
+        "service": "Post-Surgical Rehabilitation",
+        "text": "My total knee replacement recovery went so smoothly thanks to Onyx. They understood exactly how to progress my therapy to handle the hills in my Harris Ranch neighborhood. A year later, I'm hiking in the foothills pain-free for the first time in a decade. Their post-surgical care is exceptional.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "David R.",
+        "rating": 5,
+        "service": "Workplace Injury Rehabilitation",
+        "text": "As a carpenter, I thought my back injury might end my career. Onyx's work conditioning program got me back to job sites stronger than before. They analyzed my lifting techniques and customized exercises for the exact motions I use daily. Six months later, I'm pain-free and more efficient at work.",
+        "date": "2025-03-01"
+      },
+      {
+        "name": "Amanda S.",
+        "rating": 5,
+        "service": "Vestibular Rehabilitation",
+        "text": "Vertigo made driving Boise's winding roads terrifying. After just a month of vestibular therapy at Onyx, my symptoms improved dramatically. They explained everything so clearly and gave me exercises I could do at home. Now I can enjoy drives up to Bogus Basin without worrying about dizziness.",
+        "date": "2024-12-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Boise Physical Therapy | Onyx Physical Therapy",
+        "description": "Personalized physical therapy in Boise, ID helping patients recover from injuries, manage pain, and improve mobility. Serving the Treasure Valley since 2012."
+      },
+      "about": {
+        "title": "About Our Boise Physical Therapy Practice",
+        "description": "Learn about Onyx Physical Therapy's expert team, patient-centered approach, and commitment to the Boise community's health and mobility."
+      },
+      "services": {
+        "title": "Physical Therapy Services in Boise, ID",
+        "description": "Comprehensive physical therapy services in Boise including sports rehab, post-surgical recovery, chronic pain management, and pediatric therapy."
+      },
+      "contact": {
+        "title": "Contact Onyx Physical Therapy in Boise",
+        "description": "Schedule an appointment with our Boise physical therapy clinic. Convenient downtown location serving all of the Treasure Valley area."
+      },
+      "reviews": {
+        "title": "Patient Success Stories | Onyx Physical Therapy",
+        "description": "Read real patient reviews of Onyx Physical Therapy in Boise, ID and learn how we've helped Treasure Valley residents regain mobility."
+      },
+      "service-areas": {
+        "title": "Physical Therapy Near Me | Boise Area",
+        "description": "Onyx Physical Therapy serves Boise and surrounding communities with personalized rehabilitation programs tailored to Idaho lifestyles."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Boise",
+        "slug": "boise-id",
+        "state": "ID",
+        "content": "Onyx Physical Therapy is proud to serve the vibrant community of Boise, ID. Our clinic offers personalized physical therapy services to help residents recover from injuries, manage chronic pain, and improve mobility. Whether you're an athlete looking to get back in the game or someone seeking relief from everyday aches, our team is here to support your journey to better health. Boise's active lifestyle and beautiful outdoor spaces make it the perfect place to focus on rehabilitation and wellness.",
+        "localContext": "Boise is known for its thriving downtown, outdoor recreation, and strong sense of community.",
+        "nearbyAreas": [
+          "Meridian",
+          "Eagle",
+          "Garden City"
+        ]
+      },
+      {
+        "city": "Meridian",
+        "slug": "meridian-id",
+        "state": "ID",
+        "content": "At Onyx Physical Therapy, we're dedicated to providing top-notch care to the residents of Meridian, ID. Our services include post-surgical rehabilitation, sports injury recovery, and pain management tailored to your needs. Meridian's growing population and family-friendly atmosphere make it an ideal place to focus on health and wellness. Let us help you achieve your physical therapy goals in this dynamic community.",
+        "localContext": "Meridian is one of Idaho's fastest-growing cities, offering a mix of suburban comfort and urban amenities.",
+        "nearbyAreas": [
+          "Boise",
+          "Eagle",
+          "Kuna"
+        ]
+      },
+      {
+        "city": "Eagle",
+        "slug": "eagle-id",
+        "state": "ID",
+        "content": "Onyx Physical Therapy is excited to serve the residents of Eagle, ID. Our clinic provides comprehensive physical therapy services, including manual therapy, strength training, and injury prevention programs. Eagle's scenic landscapes and active community make it a great place to focus on recovery and long-term health. Whether you're recovering from surgery or looking to enhance your physical performance, our team is here to help.",
+        "localContext": "Eagle is known for its upscale neighborhoods, excellent schools, and proximity to outdoor recreation.",
+        "nearbyAreas": [
+          "Boise",
+          "Meridian",
+          "Star"
+        ]
+      },
+      {
+        "city": "Nampa",
+        "slug": "nampa-id",
+        "state": "ID",
+        "content": "Onyx Physical Therapy is committed to helping the residents of Nampa, ID, achieve their health and wellness goals. Our services include orthopedic rehabilitation, chronic pain management, and mobility improvement programs. Nampa's rich agricultural heritage and close-knit community make it a wonderful place to focus on healing and recovery. Let us guide you on your path to better movement and less pain.",
+        "localContext": "Nampa is a historic city with a strong sense of community and easy access to both urban and rural amenities.",
+        "nearbyAreas": [
+          "Caldwell",
+          "Meridian",
+          "Kuna"
+        ]
+      },
+      {
+        "city": "Caldwell",
+        "slug": "caldwell-id",
+        "state": "ID",
+        "content": "Onyx Physical Therapy is proud to serve the Caldwell, ID, community with expert physical therapy care. Our clinic offers treatments for a wide range of conditions, from sports injuries to post-operative recovery. Caldwell's small-town charm and growing economy make it an excellent place to focus on your health. Our team is dedicated to helping you regain strength, flexibility, and confidence in your movements.",
+        "localContext": "Caldwell is known for its agricultural roots, vibrant downtown, and welcoming community.",
+        "nearbyAreas": [
+          "Nampa",
+          "Middleton",
+          "Parma"
+        ]
+      },
+      {
+        "city": "Kuna",
+        "slug": "kuna-id",
+        "state": "ID",
+        "content": "Onyx Physical Therapy is delighted to provide physical therapy services to the residents of Kuna, ID. Our clinic specializes in personalized care plans for injury recovery, pain management, and mobility improvement. Kuna's rural charm and growing population make it a unique place to focus on health and wellness. Whether you're dealing with an acute injury or chronic pain, our team is here to support your recovery journey.",
+        "localContext": "Kuna offers a blend of small-town living and easy access to the amenities of the Treasure Valley.",
+        "nearbyAreas": [
+          "Meridian",
+          "Nampa",
+          "Boise"
+        ]
+      },
+      {
+        "city": "Star",
+        "slug": "star-id",
+        "state": "ID",
+        "content": "Onyx Physical Therapy is excited to serve the Star, ID, community with high-quality physical therapy services. Our clinic offers treatments for a variety of conditions, including back pain, joint issues, and sports injuries. Star's peaceful atmosphere and friendly residents make it an ideal place to focus on rehabilitation and wellness. Let us help you move better and feel better in this charming community.",
+        "localContext": "Star is a small, tight-knit community with a rural feel and close proximity to larger cities.",
+        "nearbyAreas": [
+          "Eagle",
+          "Middleton",
+          "Boise"
+        ]
+      },
+      {
+        "city": "Middleton",
+        "slug": "middleton-id",
+        "state": "ID",
+        "content": "Onyx Physical Therapy is proud to offer physical therapy services to the residents of Middleton, ID. Our clinic provides individualized care for injury recovery, chronic pain, and mobility challenges. Middleton's scenic surroundings and strong community spirit make it a great place to focus on health and healing. Whether you're recovering from surgery or looking to improve your physical function, our team is here to help.",
+        "localContext": "Middleton is a growing community with a rural charm and easy access to the Treasure Valley.",
+        "nearbyAreas": [
+          "Caldwell",
+          "Star",
+          "Nampa"
+        ]
+      },
+      {
+        "city": "Garden City",
+        "slug": "garden-city-id",
+        "state": "ID",
+        "content": "Onyx Physical Therapy is committed to serving the Garden City, ID, community with expert physical therapy care. Our clinic offers a range of services, from post-surgical rehabilitation to sports performance enhancement. Garden City's unique location and vibrant arts scene make it a special place to focus on wellness. Let us help you achieve your physical therapy goals in this eclectic and dynamic community.",
+        "localContext": "Garden City is known for its artistic vibe, diverse population, and proximity to the Boise River.",
+        "nearbyAreas": [
+          "Boise",
+          "Eagle",
+          "Meridian"
+        ]
+      },
+      {
+        "city": "Emmett",
+        "slug": "emmett-id",
+        "state": "ID",
+        "content": "Onyx Physical Therapy is pleased to provide physical therapy services to the residents of Emmett, ID. Our clinic offers personalized care for injury recovery, pain management, and mobility improvement. Emmett's small-town atmosphere and beautiful natural surroundings make it a wonderful place to focus on health and healing. Whether you're dealing with an injury or chronic condition, our team is here to support your recovery.",
+        "localContext": "Emmett is a charming agricultural community with a strong sense of history and community pride.",
+        "nearbyAreas": [
+          "Caldwell",
+          "Star",
+          "Middleton"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "post-surgical-rehabilitation": "/images/service-post-surgical-rehabilitation.webp",
+      "sports-injury-recovery": "/images/service-sports-injury-recovery.webp",
+      "chronic-pain-management": "/images/service-chronic-pain-management.webp",
+      "balance-and-fall-prevention": "/images/service-balance-and-fall-prevention.webp",
+      "workplace-injury-rehabilitation": "/images/service-workplace-injury-rehabilitation.webp",
+      "pediatric-physical-therapy": "/images/service-pediatric-physical-therapy.webp",
+      "vestibular-rehabilitation": "/images/service-vestibular-rehabilitation.webp"
+    },
+    "servicesResponsive": {
+      "post-surgical-rehabilitation": {
+        "src": "/images/service-post-surgical-rehabilitation.webp",
+        "srcset": "/images/service-post-surgical-rehabilitation-400w.webp 400w, /images/service-post-surgical-rehabilitation-800w.webp 800w, /images/service-post-surgical-rehabilitation-1200w.webp 1200w, /images/service-post-surgical-rehabilitation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sports-injury-recovery": {
+        "src": "/images/service-sports-injury-recovery.webp",
+        "srcset": "/images/service-sports-injury-recovery-400w.webp 400w, /images/service-sports-injury-recovery-800w.webp 800w, /images/service-sports-injury-recovery-1200w.webp 1200w, /images/service-sports-injury-recovery.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "chronic-pain-management": {
+        "src": "/images/service-chronic-pain-management.webp",
+        "srcset": "/images/service-chronic-pain-management-400w.webp 400w, /images/service-chronic-pain-management-800w.webp 800w, /images/service-chronic-pain-management-1200w.webp 1200w, /images/service-chronic-pain-management.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "balance-and-fall-prevention": {
+        "src": "/images/service-balance-and-fall-prevention.webp",
+        "srcset": "/images/service-balance-and-fall-prevention-400w.webp 400w, /images/service-balance-and-fall-prevention-800w.webp 800w, /images/service-balance-and-fall-prevention-1200w.webp 1200w, /images/service-balance-and-fall-prevention.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "workplace-injury-rehabilitation": {
+        "src": "/images/service-workplace-injury-rehabilitation.webp",
+        "srcset": "/images/service-workplace-injury-rehabilitation-400w.webp 400w, /images/service-workplace-injury-rehabilitation-800w.webp 800w, /images/service-workplace-injury-rehabilitation-1200w.webp 1200w, /images/service-workplace-injury-rehabilitation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pediatric-physical-therapy": {
+        "src": "/images/service-pediatric-physical-therapy.webp",
+        "srcset": "/images/service-pediatric-physical-therapy-400w.webp 400w, /images/service-pediatric-physical-therapy-800w.webp 800w, /images/service-pediatric-physical-therapy-1200w.webp 1200w, /images/service-pediatric-physical-therapy.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "vestibular-rehabilitation": {
+        "src": "/images/service-vestibular-rehabilitation.webp",
+        "srcset": "/images/service-vestibular-rehabilitation-400w.webp 400w, /images/service-vestibular-rehabilitation-800w.webp 800w, /images/service-vestibular-rehabilitation-1200w.webp 1200w, /images/service-vestibular-rehabilitation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
